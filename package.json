@@ -1,0 +1,23 @@
+{
+  "name": "brunch-dutch-baby",
+  "description": "Brunch skeleton with backbone 1.0, bootstrap 3, coffeescript, stylus and jade",
+  "author": "Jeff Kingyens",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "javascript-brunch": "1.6.0",
+    "css-brunch": "1.6.0",
+    "uglify-js-brunch": "1.7.2",
+    "clean-css-brunch": "1.6.0",
+    "auto-reload-brunch": "1.6.5",
+    "coffee-script": "~1.6.3",
+    "brunch": "~1.7.4",
+    "coffee-script-brunch": "~1.7.2",
+    "jade-brunch": "~1.7.2",
+    "stylus-brunch": "~1.7.0",
+    "handlebars-brunch": "~1.7.2"
+  }
+}

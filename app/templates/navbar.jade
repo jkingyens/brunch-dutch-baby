@@ -1,0 +1,18 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  .container
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand Brunch Dutch Baby
+    .navbar-collapse.collapse
+      ul.nav.navbar-nav
+        li(class=page === 'menu_1' ? 'active' : 'inactive'): a.menu1-button(href='menu_1') Menu 1
+        li(class=page === 'menu_2' ? 'active' : 'inactive'): a.menu2-button(href='menu_2') Menu 2
+        li(class=page === 'menu_3' ? 'active' : 'inactive'): a.menu3-button(href='menu_3') Menu 3
+      form.navbar-form.navbar-right
+        .form-group.login-email: input.form-control(type='text', placeholder='Email')
+        .form-group.login-password: input.form-control(type='password', placeholder='Password')
+        button.btn.btn-success(type='submit') Sign-in
+.content-body

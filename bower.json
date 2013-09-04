@@ -1,0 +1,33 @@
+{
+  "name": "brunch-dutch-baby",
+  "version": "0.1.0",
+  "main": "public/app.js",
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "auto-reload-brunch": "~1.6.5",
+    "backbone": "~1.0.0"
+  },
+  "overrides": {
+    "underscore":  {
+      "main": [
+        "underscore.js"
+      ]
+    },
+    "backbone": {
+      "dependencies": {
+        "jquery": "2.0.3",
+        "underscore": "1.5.1"
+      },
+      "main": [
+        "backbone.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap-theme.css"
+      ]
+    }
+  }
+}
