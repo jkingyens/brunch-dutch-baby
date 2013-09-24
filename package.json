@@ -14,10 +14,24 @@
     "clean-css-brunch": "1.6.0",
     "auto-reload-brunch": "1.6.5",
     "coffee-script": "~1.6.3",
-    "brunch": "~1.7.4",
+    "brunch": "1.7.6",
     "coffee-script-brunch": "~1.7.2",
     "jade-brunch": "~1.7.2",
     "stylus-brunch": "~1.7.0",
-    "handlebars-brunch": "~1.7.2"
+    "handlebars-brunch": "~1.7.2",
+    "bower": "~1.2.6"
+  },
+  "devDependencies": {
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-requirejs": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma": "~0.10.2",
+    "karma-safari-launcher": "~0.1.1",
+    "mocha": "~1.13.0",
+    "karma-mocha": "~0.1.0"
   }
 }
