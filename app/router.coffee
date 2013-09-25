@@ -16,13 +16,4 @@ Router = Backbone.Router.extend
     'menu_2'      : 'menu_2'
     'menu_3'      : 'menu_3'
 
-  menu_1: () ->
-    @navbar.render()
-
-  menu_2: () ->
-    @navbar.render()
-
-  menu_3: () ->
-    @navbar.render()
-
 module.exports = Router

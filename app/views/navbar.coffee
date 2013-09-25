@@ -11,10 +11,6 @@ NavBar = Backbone.View.extend
     @menu_3_view = new menu_3()
 
     options.router.on 'route:menu_1', () =>
-      @page = ''
-      @render()
-
-    options.router.on 'route:menu_1', () =>
       @page = 'menu_1'
       @render()
 
