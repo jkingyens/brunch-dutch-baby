@@ -4,8 +4,8 @@
   "author": "Jeff Kingyens",
   "version": "0.1.0",
   "scripts": {
-    "start": "brunch watch --server",
-    "test": "brunch test"
+    "start": "./node_modules/.bin/brunch watch --server",
+    "test": "./node_modules/.bin/karma start karma.coffee"
   },
   "dependencies": {
     "javascript-brunch": "1.6.0",
