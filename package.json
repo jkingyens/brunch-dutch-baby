@@ -19,7 +19,9 @@
     "jade-brunch": "~1.7.2",
     "stylus-brunch": "~1.7.0",
     "handlebars-brunch": "~1.7.2",
-    "bower": "~1.2.6"
+    "bower": "~1.2.6",
+    "less": "~1.4.2",
+    "less-brunch": "~1.7.0"
   },
   "devDependencies": {
     "karma-script-launcher": "~0.1.0",

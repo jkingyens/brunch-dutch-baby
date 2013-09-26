@@ -4,7 +4,16 @@ exports.config =
       joinTo:
         'app.js': /^app/
         'vendor.js': /^bower_components/
+      order:
+        after: [
+          'index.coffee'
+        ]
     stylesheets:
-      joinTo: 'app.css'
+      joinTo:
+        'styles/app.css': /^app/
+      order:
+        before: [
+          'bootstrap/less/bootstrap.less'
+        ]
     templates:
       joinTo: 'templates.js'
