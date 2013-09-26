@@ -2,9 +2,9 @@ exports.config =
   files:
     javascripts:
       joinTo:
-        'app.js': /^app/
-        'vendor.js': /^bower_components/
+        'js/app.js': /^app/
+        'js/vendor.js': /^bower_components/
     stylesheets:
-      joinTo: 'app.css'
+      joinTo: 'styles/app.css'
     templates:
-      joinTo: 'templates.js'
+      joinTo: 'js/templates.js'
